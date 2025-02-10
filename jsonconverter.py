@@ -202,4 +202,4 @@ if __name__ == "__main__":
     # Load data from the file
     data_text = load_text_file("data/data.txt")
     last_location = None  # Initialize last location as a global variable
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000)
